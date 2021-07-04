@@ -19,8 +19,7 @@ body{
     background-position: right bottom;
 }
 
-
-.identity-section h1, .experiences-section h1, .experience-area h1  {
+h1{
     font-size: 40px;
 }
 .company-name, .experience-area h3{
