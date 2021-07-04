@@ -2,20 +2,33 @@ body{
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+/**---------------Identity Section Start here----------**/
 .identity-section{
     display: flex;
     padding: 10px 20px;
     margin-bottom: 200px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
-.identity-section h1{
-    font-size: 50px;
+.identity-section-two{
+    display: flex;
+    padding: 10px 20px;
+    margin-bottom: 200px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
-.company-name{
+
+
+.identity-section h1, .experiences-section h1, .experience-area h1  {
+    font-size: 40px;
+}
+.company-name, .experience-area h3{
     color: orange;
 }
 .description-one{
     width: 50%;
-    padding: 0px 80px;
+    padding: 0 70px;
 }
 .description-one a{
     color: #ffffff;
@@ -24,6 +37,42 @@ body{
     padding: 5px 15px;
     border-radius: 3px;
 }
-.description-one img{
-    width: 80%;
+.description-one img{   width: 80%;
+}
+/**---------------Identity Section End here----------**/
+/**---------------Experience Section Start here----------**/
+.experience-area{
+    display: flex;
+    padding: 0 50px;
+    margin-bottom: 200px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    
+    
+}
+.experience-area-one{
+    width: 50%;
+    padding: 0px 75px;
+    box-shadow: 5px 5px 40px gray;
+    margin: 0 35px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,salmon, tomato);
+    border-image-slice: 1;
+
+
+}
+#learner-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, lightblue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
 }
